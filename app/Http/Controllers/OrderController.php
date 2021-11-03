@@ -24,7 +24,7 @@ class OrderController extends Controller
                 'registration_method' => 'test',
                 'order_number' => '4031997',
                 'full_name' => $request->fullname,
-                'client_comment' => $request->comment
+                'client_comment' => 'https://github.com/harutyunyanzara97/my-task'
 
 )),
     'apiKey' => $key,
